@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Home - ArenaGit{% endblock %}
+
+{% block content %}
+<div class="px-5 py-3 pt-5 text-center d-flex flex-column gap-4 align-items-center">
+    <h1 class="pt-5">Bem-vindo ao ArenaGit!</h1>
+    <p>Este é o seu painel de agendamento de quadras.</p>
+    <p>Escolha uma opção no menu para começar.</p>
+
+    <div class="d-flex gap-4 justify-content-center">
+        <a href="/agendamentos" class="btn btn-primary btn-adicionar px-5">Ver Agendamentos</a>
+        <a href="/quadras" class="btn btn-success btn-adicionar px-5">Ver Quadras</a>
+    </div>
+</div>
+{% endblock %}
